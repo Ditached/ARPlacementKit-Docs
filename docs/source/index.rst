@@ -17,8 +17,8 @@ Check out the :doc:`usage` and :doc:`installation` sections for further informat
 
 .. note::
 
-   This project is under very active development.
-
+   This project is amazing
+   
 Contents
 --------
 

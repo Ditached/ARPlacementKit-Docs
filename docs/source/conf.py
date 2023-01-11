@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'AR Placement Kit'
 copyright = '2023, Ditached GmbH'
 author = 'Ditached'
 

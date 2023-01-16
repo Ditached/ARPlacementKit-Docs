@@ -8,6 +8,13 @@ Setup
 Install packages
 ================
 
+AR Foundation 5
+---------------
+
+Follow the instructions provided in the `ARFoundation Docs`_.
+
+
+
 Install using the package manager.
 
 
@@ -23,3 +30,5 @@ Configure iOS
 Project Settings -> iOS
 
 
+
+.. _ARFoundation Docs: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/install-arfoundation.html

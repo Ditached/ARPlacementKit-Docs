@@ -18,6 +18,7 @@ AR Foundation 5
 Follow the *installation* and *Project setup* instructions provided in the `ARFoundation Docs`_.
 
 Optional: For testing inside the unity editor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Add the "XR Environment" window from Window -> AR Foundation -> XR 
 - inside the "XR Environment", install the Sample Environments from the drop-down 
 

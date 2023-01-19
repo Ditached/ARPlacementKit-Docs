@@ -16,6 +16,10 @@ AR Foundation 5
 ---------------
 
 Follow the *installation* and *Project setup* instructions provided in the `ARFoundation Docs`_.
+For Unity 2021, see `AR Foundation (Unity 2021)`_.
+
+.. note::
+   As stated in the Documentation, both ARFoundation and ARKit need to be set to the same version.
 
 Optional: For testing inside the unity editor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,3 +47,5 @@ ARPLacemetKit (this package)
 
 .. _ARFoundation Docs: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/project-setup.html
 .. _ARKit Docs: https://docs.unity3d.com/Packages/com.unity.xr.arkit@5.0/manual/project-configuration-arkit.html
+
+.. _AR Foundation (Unity 2021): https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/edit-your-project-manifest.html

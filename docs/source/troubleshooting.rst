@@ -69,6 +69,11 @@ App is crashing on Android
 This is a problem with AR Foundation if you have Vulkan enabled for example.
 Follow these `steps here to fix it <https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/project-configuration-arcore.html>`_.
 
+Another great way is to use the validation window. Make sure everything is green here.
+
+.. image:: images/Validation.png
+    :width: 400
+
 
 =================
 None of my errors is listed here

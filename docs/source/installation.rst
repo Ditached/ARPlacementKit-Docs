@@ -1,13 +1,10 @@
 #####
-Setup
+Getting Started
 #####
 
 .. autosummary::
    :toctree: generated
 
-
-Getting Started
-===============
 **It is recommended to start with a new project. The best option is to use the 3D (URP) starting template provided by Unity when starting a new project.**
 
 .. image:: images/3DCore.png
@@ -83,7 +80,7 @@ Validate! Don't skip this
    Don't miss this quick step. AR Foundation validates that every thing is set up correctly. If you skip this step, you might get errors later on.
 
 .. image:: images/Validation.png
-    :width: 400
+    :width: 550
 
 You can check Android and iOS. Make sure everything is green.
 

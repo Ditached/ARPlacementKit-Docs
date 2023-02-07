@@ -72,7 +72,7 @@ Follow these `steps here to fix it <https://docs.unity3d.com/Packages/com.unity.
 Another great way is to use the validation window. Make sure everything is green here.
 
 .. image:: images/Validation.png
-    :width: 400
+    :width: 500
 
 
 =================

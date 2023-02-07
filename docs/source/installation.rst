@@ -77,6 +77,17 @@ Optional: For testing inside the unity editor
 - inside the "XR Environment", install the Sample Environments from the drop-down 
 
 =================
+Validate! Don't skip this
+=================
+.. note::
+   Don't miss this quick step. AR Foundation validates that every thing is set up correctly. If you skip this step, you might get errors later on.
+
+.. image:: images/Validation.png
+    :width: 400
+
+You can check Android and iOS. Make sure everything is green.
+
+=================
 Sample Scene
 =================
 

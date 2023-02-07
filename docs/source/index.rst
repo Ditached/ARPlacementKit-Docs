@@ -26,6 +26,11 @@ If you are having trouble, check out the :doc:`troubleshooting` section.
 .. note::
    Please follow the setup instructions carefully. Most errors occur by not setting up AR Foundation correctly, which is unrelated to this package. We provide some guide anyways to make sure you get started as easy as possible.
    
+Why AR Foundation 5.0+:
+~~~~~~~~
+We decided to only support AR Foundation 5.0 as it is the newest version. There a major changes between versions and it is hard to support multiple of them.
+Version 5.0+ provides support for in-editor testing which is essential in our opinion.
+
 Contents
 --------
 

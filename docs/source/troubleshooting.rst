@@ -64,6 +64,13 @@ XCode requires a provising profile whenever you make an build. Setting XCode to 
 For further information make sure to check the Unity and or XCode docs.
 
 =================
+App is crashing on Android
+=================
+This is a problem with AR Foundation if you have Vulkan enabled for example.
+Follow these `steps here to fix it <https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/project-configuration-arcore.html>`_.
+
+
+=================
 None of my errors is listed here
 =================
 Oh no! We do apologize for that. We try to support you as best and as quick as we can. Drop us a mail at support@ditached.de and we will try to help you out.

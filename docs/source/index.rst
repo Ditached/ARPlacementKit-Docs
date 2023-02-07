@@ -13,8 +13,11 @@ Features:
     - Testing inside editor via AR Foundation 4.0
 
 
+I want to get started:
+~~~~~~~~
 
-Check out the :doc:`usage` and :doc:`installation` sections for further information.
+Check out the ** :doc:`installation` section first! ** . If you got the package already setup and running,
+check out the ** :doc:`usage` section ** for a guide on how to use the package.
 
 .. note::
 

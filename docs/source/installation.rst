@@ -10,7 +10,6 @@ Getting Started
 ===============
 **It is recommended to start with a new project. The best option is to use the 3D (URP) starting template provided by Unity when starting a new project.**
 
-
 .. image:: images/3DCore.png
     :width: 300
 
@@ -46,28 +45,28 @@ Setup URP with AR Foundation
 AR Foundation does not work right away with URP.
 Follow these `steps here to set it up <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/universal-render-pipeline.html>`_.
 
+.. note::
+   Skipping this step will result in a glitched image
+   
+
+Setting up for iOS (AR Kit)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Follow the instructions from the `ARKit Docs`_.
+
+.. note::
+   You can either install for iOS or Android or both. If you just need a single platform, you can skip the other one.
+   The AR scanning guide at the beginning is only available for iOS.
+
+Setting up for Android (AR Core)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Follow the instructions from the `ARCore Docs`_.
 
 Optional: For testing inside the unity editor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Add the "XR Environment" window from Window -> AR Foundation -> XR 
 - inside the "XR Environment", install the Sample Environments from the drop-down 
 
-
-
-iOS Support via ARKit
----------------------
-Follow the instructions from the `ARKit Docs`_.
-
-
-
-
-
-
-
-
-
-
 .. _ARFoundation Docs: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/project-setup.html
 .. _ARKit Docs: https://docs.unity3d.com/Packages/com.unity.xr.arkit@5.0/manual/project-configuration-arkit.html
-
+.. _ARCore Docs: https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/project-configuration-arcore.html
 .. _AR Foundation (Unity 2021): https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/edit-your-project-manifest.html

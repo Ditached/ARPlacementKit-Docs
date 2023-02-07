@@ -22,7 +22,6 @@ check out the :doc:`usage` section for a guide on how to use the package.
 If you are having trouble, check out the :doc:`troubleshooting` section.
 
 .. note::
-
    Please follow the setup instructions carefully. Most errors occur by not setting up AR Foundation correctly, which is unrelated to this package. We provide some guide anyways to make sure you get started as easy as possible.
    
 Contents

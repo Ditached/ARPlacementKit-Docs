@@ -1,10 +1,8 @@
 #####
 Getting Started
 #####
-
 .. autosummary::
    :toctree: generated
-
 **It is recommended to start with a new project. The best option is to use the 3D (URP) starting template provided by Unity when starting a new project.**
 
 .. image:: images/3DCore.png

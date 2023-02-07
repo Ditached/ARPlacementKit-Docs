@@ -16,14 +16,14 @@ Features:
 I want to get started:
 ~~~~~~~~
 
-Check out the :doc:`installation` section first!. If you got the package already setup and running,
+Check out **the :doc:`installation` section** first!. If you got the package already setup and running,
 check out the :doc:`usage` section for a guide on how to use the package.
 
 If you are having trouble, check out the :doc:`troubleshooting` section.
 
 .. note::
 
-   This project is amazing
+   Please follow the setup instructions carefully. Most errors occur by not setting up AR Foundation correctly, which is unrelated to this package. We provide some guide anyways to make sure you get started as easy as possible.
    
 Contents
 --------

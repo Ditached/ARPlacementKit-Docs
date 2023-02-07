@@ -14,12 +14,29 @@ If you have trouble installing the package, you can check out `this guide from U
 
 
 =================
+The image is black
+=================
+This probably means that AR Foundation is not working correctly. Make sure that ARKit/ARCore is enabled in the project settings.
+
+
+.. image:: images/ARPlugin.png
+    :width: 400
+
+Next, make sure in the Player Settings that ARKit/ARCore is enabled, too.
+
+.. image:: images/ARKitEnabled.png
+    :width: 400
+
+For a comprehensive guide, you should check out `this guide from Unity <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/install-arfoundation.html>`_.
+
+
+=================
 The image is glitched
 =================
 If it looks something like this 
 
 .. image:: images/Glitch.jpeg
-    :width: 500
+    :width: 350
 
 when deploying to your device, then URP is not setup with AR Foundation.
 Follow these `steps here to fix it <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/universal-render-pipeline.html>`_.

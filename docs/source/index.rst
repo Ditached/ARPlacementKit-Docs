@@ -19,6 +19,8 @@ I want to get started:
 Check out the :doc:`installation` section first!. If you got the package already setup and running,
 check out the :doc:`usage` section for a guide on how to use the package.
 
+If you are having trouble, check out the :doc:`troubleshooting` section.
+
 .. note::
 
    This project is amazing

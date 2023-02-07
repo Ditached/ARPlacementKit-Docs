@@ -33,8 +33,6 @@ Setting up AR Foundation
 =================
 If you have started with a new project, you need to set up AR Foundation first.
 
-AR Foundation 5
----------------
 
 Follow the *installation* and *Project setup* instructions provided in the `ARFoundation Docs`_.
 For Unity 2021, see `AR Foundation (Unity 2021)`_.

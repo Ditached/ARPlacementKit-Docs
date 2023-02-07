@@ -19,6 +19,7 @@ In order for the package to work, there a few important requirements:
 When first installing the package it might warn you that the new input system is used. Press *YES* to restart the editor.
 
 .. image:: NewInputSystemPrompt.png
+    :width: 300
 
 
 Parameters

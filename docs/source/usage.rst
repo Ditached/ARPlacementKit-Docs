@@ -8,17 +8,10 @@ Getting Started
 ===============
 
 
-Install the package using the Unity package manager and ...
-how does this work...?
 
-Input
+When first installing the package it might warn you that the new input system is used. Press *YES* to restart the editor.
 
 .. image:: NewInputSystemPrompt.png
-   :height: 100px
-   :width: 200 px
-   :scale: 50 %
-   :alt: alternate text
-   :align: right
 
 
 Parameters

@@ -1,7 +1,7 @@
 AR Placement Kit
 ===================================
 
-**ARPLacemetKit** provides an *intuitive* and *versatile* interface for positioning 3d objects inside an AR Space.
+**AR Placement Kit** provides an *intuitive* and *versatile* interface for positioning 3d objects inside an AR Space.
 
 .. image:: images/arplacementthumbnail.jpeg
     :width: 500
@@ -18,7 +18,7 @@ Features:
 I want to get started:
 ~~~~~~~~
 
-Check out **the :doc:`installation` section** first!. If you got the package already setup and running,
+Check out the :doc:`**installation**` section first!. If you got the package already setup and running,
 check out the :doc:`usage` section for a guide on how to use the package.
 
 If you are having trouble, check out the :doc:`troubleshooting` section.

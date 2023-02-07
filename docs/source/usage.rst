@@ -7,6 +7,13 @@ Usage
 Getting Started
 ===============
 
+**It is recommended to start with a new project. The best option is to use the 3D (URP) starting template provided by Unity when starting a new project.**
+
+In order for the package to work, there a few important requirements:
+
+    - Your project needs to use URP (Universal Render Pipeline)
+    - No version of AR Foundation below 5.0 is installed (When no version is installed, the package will do it)
+    - You are using Unity 2021.2 or higher
 
 
 When first installing the package it might warn you that the new input system is used. Press *YES* to restart the editor.

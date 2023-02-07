@@ -42,6 +42,13 @@ For Unity 2021, see `AR Foundation (Unity 2021)`_.
 .. note::
    As stated in the Documentation, both ARFoundation and ARKit need to be set to the same version.
 
+
+Setup URP with AR Foundation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AR Foundation does not work right away with URP.
+Follow these `steps here to set it up <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/universal-render-pipeline.html>`_.
+
+
 Optional: For testing inside the unity editor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Add the "XR Environment" window from Window -> AR Foundation -> XR 

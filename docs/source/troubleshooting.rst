@@ -15,7 +15,6 @@ How do I install this package
 
 If you have trouble installing the package, you can check out `this guide from Unity <https://docs.unity3d.com/Manual/upm-ui-import.html>`_.
 
-
 =================
 The image is black
 =================
@@ -31,7 +30,6 @@ Next, make sure in the Player Settings that ARKit/ARCore is enabled, too.
     :width: 400
 
 For a comprehensive guide, you should check out `this guide from Unity <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/install-arfoundation.html>`_.
-
 
 =================
 The image is glitched
@@ -50,12 +48,10 @@ Stuff is pink
 When objects are rendered pink, you are probably not using the URP (Universal Render Pipeline). Starting the a new project with the 3D (URP) starting template will prevent this problem. But it is also possible to upgrade.
 For more information `check out this guide <https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@15.0/manual/InstallURPIntoAProject.html>`_.
 
-
 =================
 Threading error prevents building
 =================
 This is a Unity related error. Restarting the project seems to help.
-
 
 =================
 XCode Error requiring provising profile

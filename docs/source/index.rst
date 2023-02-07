@@ -25,6 +25,6 @@ Contents
 
 .. toctree::
 
-   usage
    installation
+   usage
    troubleshooting

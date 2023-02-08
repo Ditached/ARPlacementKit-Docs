@@ -9,11 +9,23 @@ AR Placement Kit
 Features:
 ~~~~~~~~
 
-    - No coding!
-    - Smooth surface switching
-    - Precise positioning, scaling and rotation
-    - Automatic reflective lighting
+    - Put any 3D Model into the AR Space without coding!
+    - Smooth surface switching technology for the best AR positioning
+    - Scaling and rotation with intuitive two-finger gestures
+    - Fine-tuning ui for extra precise positioning
     - Testing inside editor via AR Foundation 5.0+
+
+Quick Start Guide:
+~~~~~~~~
+.. note::
+    You can either use the video as tutorial or follow the :doc:`installation` section.
+
+.. raw:: html
+
+    <embed>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/P2HiouySJG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </embed>
+   
 
 I want to get started:
 ~~~~~~~~

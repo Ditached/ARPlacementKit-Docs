@@ -14,7 +14,7 @@ It is best to check the sample scene for a working example.
 
 Most settings can be found on those two components. In general your hierachy should look something like this:
 
-.. image:: images/Hierarchy.png
+.. image:: images/Hierachy.png
     :width: 400
 
 If you are not using the sample scene as a starting point, you will have to add the *AR Placement Guide* and the *Placeable Generator* to the XR Origin GameObject.

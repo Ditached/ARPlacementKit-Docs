@@ -42,6 +42,18 @@ Why AR Foundation 5.0+:
 We decided to only support AR Foundation 5.0 as it is the newest version. There a major changes between versions and it is hard to support multiple of them.
 Version 5.0+ provides support for in-editor testing which is essential in our opinion.
 
+Showcase
+~~~~~~~~
+.. raw:: html
+
+    <embed>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/P2HiouySJG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div height="50">
+    </embed>
+
+.. note::
+   The coaching overlay at beginning is an AR Kit only feature, meaning it is on iOS exclusivly.
+     
 Contents
 --------
 

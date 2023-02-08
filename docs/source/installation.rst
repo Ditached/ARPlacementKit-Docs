@@ -85,6 +85,25 @@ You can check Android and iOS. Make sure everything is green.
 =================
 Sample Scene
 =================
+In the package there is a sample scene. It is located in the folder *Samples* in the package. It is called *ARPlacementKitSample*.
+After opening it you should see the following hierachy:
+
+.. image:: images/Hierachy.png
+    :width: 400
+
+Before customizing anything, make sure to press *Play* if you have the *XR Simulation* enabled. Otherwise, create a build on your target device to validate that everything works.
+If you run into any troubles at this point, check out the :doc:`troubleshooting` section.
+
+It should something like this. 
+
+.. image:: images/XRSimulation.png
+    :width: 400
+
+.. note::
+   If this is your first time using the *XR Simulation* make sure to check out the `documentation <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/xr-simulation/simulation-getting-started.html>`_.
+
+The two finger gestures for rotating and scaling will only work on an actual device. The *XR Simulation* does not support it.
+
 
 
 .. _ARFoundation Docs: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/project-setup.html

@@ -35,7 +35,6 @@ Quick Start Guide:
 
     <embed>
         </br>
-        </wbr>
     </embed> 
 
 Check out the :doc:`installation` section first!. If you got the package already setup and running, check out the :doc:`usage` section for a guide on how to use the package.

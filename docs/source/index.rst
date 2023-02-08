@@ -26,12 +26,8 @@ Quick Start Guide:
         <iframe width="560" height="315" src="https://www.youtube.com/embed/P2HiouySJG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </embed>
    
-
  
-
-I want to get started:
-~~~~~~~~
-
+  
 Check out the :doc:`installation` section first!. If you got the package already setup and running,
 check out the :doc:`usage` section for a guide on how to use the package.
 

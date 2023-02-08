@@ -61,3 +61,4 @@ Contents
    installation
    usage
    troubleshooting
+   about-us

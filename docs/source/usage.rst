@@ -20,10 +20,10 @@ Most settings can be found on those two components. In general your hierachy sho
 If you are not using the sample scene as a starting point, you will have to add the *AR Placement Guide* and the *Placeable Generator* to the XR Origin GameObject.
 As well as *AR Kit Coaching Overlay* to the *AR Session* GameObject (though this is optional as it is an iOS only feature).
 
-Using your own model
+Using your own model/prefab
 ==========
 By replacing the *Prefab* on the *Placeable Generator* in the inspector you can use your own prefab.
-Just drag in your model and everything should work out of the box.
+Just drag in your model and everything should work out of the box. The transform inside the prefab will be preserved.
 
 .. image:: images/CustomPrefab.png
     :width: 400
@@ -43,17 +43,7 @@ This prefab can then be used in the *Placeable Generator*. Just select the XR Or
 
 `More info on creating prefabs <https://docs.unity3d.com/Manual/CreatingPrefabs.html>`_.
 
-Customizing UI
+Customization
 ==========
-
-
-
-
-Parameters
-==========
-
-Prefab
-----------
-A prefab containing the Mesh for the object. The tranform inside the prefab is preserved.
 
 

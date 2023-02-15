@@ -66,7 +66,17 @@ Alternatively, follow these `steps here to set it up <https://docs.unity3d.com/P
 
 Setting up for iOS (AR Kit)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Follow the instructions from the `ARKit Docs`_.
+
+First, enable ARKit in Project Settings -> XR Plugin-Management -> iOS -> ARKit.
+.. image:: images/ARKitXRManagement.png
+    :width: 500
+
+Then, require support for it in iOS builds.
+.. image:: images/ARKitSupport.png
+    :width: 500
+
+
+Detailed instructions at `ARKit Docs`_.
 
 .. note::
    You can either install for iOS or Android or both. If you just need a single platform, you can skip the other one.

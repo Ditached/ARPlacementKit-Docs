@@ -68,10 +68,12 @@ Setting up for iOS (AR Kit)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 First, enable ARKit in Project Settings -> XR Plugin-Management -> iOS -> ARKit.
+
 .. image:: images/ARKitXRManagement.png
     :width: 500
 
 Then, require support for it in iOS builds.
+
 .. image:: images/ARKitSupport.png
     :width: 500
 

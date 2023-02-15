@@ -1,7 +1,7 @@
-#####
-Usage
-#####
-.. _usage:
+#############
+Customization
+#############
+.. _customization:
 
 The two most important components of this package are the **AR Placement Guide* and the *Placeable Generator*. Both have to be on the same GameObject as the XR Origin.
 It is best to check the sample scene for a working example.

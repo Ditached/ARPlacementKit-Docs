@@ -27,6 +27,7 @@ Just drag in your model and everything should work out of the box. The transform
     :width: 400
 
 This prefab should ideally only have a single *MeshRenderer* and a *MeshFilter* attached to it.
+
 A collider will also be added automatically. If you are unsure how to create a prefab, see the section below.
 If you are looking for an example prefab check out the sample one. 
 

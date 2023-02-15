@@ -74,6 +74,10 @@ Another great way is to use the validation window. Make sure everything is green
 .. image:: images/Validation.png
     :width: 500
 
+=================
+If the object can be spawned but not moved
+=================
+Set Project Settings -> Player -> iOS -> Managed Stripping Level to "Minimal". See :doc:`installation`
 
 =================
 None of my errors is listed here

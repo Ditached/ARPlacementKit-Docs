@@ -56,12 +56,6 @@ Alternatively, follow these `steps here to set it up <https://docs.unity3d.com/P
    Skipping this step will result in a glitched image
    
 
-Disable code-stripping
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-! not written yet !
-
-
-
 Setting up for iOS (AR Kit)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Follow the instructions from the `ARKit Docs`_.
@@ -71,6 +65,8 @@ Follow the instructions from the `ARKit Docs`_.
    The AR scanning guide at the beginning is only available for iOS.
 
 If you have any trouble setting up ARKit, meaning you can't build or get a black screen, take a look at the `Unity Manual for ARCore setup`_. 
+
+Additionally, reduce code stripping for iOS by setting _Project Settings -> Player -> iOS -> Managed Stripping Level to "Minimal"_. For more info see `Unity Manual - Code Stripping`_.
 
 Setting up for Android (AR Core)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -124,3 +120,4 @@ The two finger gestures for rotating and scaling will only work on an actual dev
 .. _AR Foundation (Unity 2021): https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/edit-your-project-manifest.html
 .. _Unity Manual for ARCore setup: https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/project-configuration-arcore.html
 .. _Unity Manual for ARKit setup: https://docs.unity3d.com/Packages/com.unity.xr.arkit@5.0/manual/project-configuration-arkit.html
+.. _Unity Manual - Code Stripping: https://docs.unity3d.com/Manual/ManagedCodeStripping.html

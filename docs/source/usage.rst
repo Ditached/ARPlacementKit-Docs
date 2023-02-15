@@ -46,6 +46,7 @@ This prefab can then be used in the *Placeable Generator*. Just select the XR Or
 
 `More info on creating prefabs <https://docs.unity3d.com/Manual/CreatingPrefabs.html>`_.
 
+
 Advanced Parameters
 ===================
 
@@ -85,11 +86,11 @@ AR Placement Guide
 ******************
 
 Enable Scaling
---------------
+==============
 Enable scaling the placeable using a pinch gesture.
 
 Enable Rotation
----------------
+===============
 Enable rotating the placeable by rotating the first 2 fingers that touch the screen around each other.
 
 

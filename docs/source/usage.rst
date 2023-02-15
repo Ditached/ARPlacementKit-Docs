@@ -23,7 +23,7 @@ Tranforming the object
 
 Movement
 ========
-To move the object, tap and then drag it. You can either use a finger to move the object or move the entire mobile device.
+To move the object, tap and then drag it. While holding down the finger on the object, you can either use a finger to move the object or move the entire mobile device.
 
 Rotation
 ========

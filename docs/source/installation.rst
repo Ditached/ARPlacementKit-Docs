@@ -88,6 +88,9 @@ If you have any trouble setting up ARKit, meaning you can't build or get a black
 
 Additionally, reduce code stripping for iOS by setting _Project Settings -> Player -> iOS -> Managed Stripping Level to "Minimal"_. For more info see `Unity Manual - Code Stripping`_.
 
+.. image:: images/CodeStripping.png
+    :width: 500
+
 Setting up for Android (AR Core)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Follow the instructions from the `ARCore Docs`_.

@@ -72,7 +72,7 @@ Higher numbers lead to shorter transition time.
 
 Transition Threshold
 --------------------
-The minimum distance for a transition to be triggered. If distance is smaller than this value, the movement will be instantaneous.
+The minimum distance for a transition to be triggered. If the distance to the target position is smaller than this value, the movement will be instantaneous.
 Raise this value if the placeable lags behind when dragging it with a finger gesture.
 Higher values lead to fewer transitions.
 
@@ -84,11 +84,27 @@ The smallest possible scale for the placeable when using the pinch gestures. Whe
 AR Placement Guide
 ******************
 
+Enable Scaling
+--------------
+Enable scaling the placeable using a pinch gesture.
+
+Enable Rotation
+---------------
+Enable rotating the placeable by rotating the first 2 fingers that touch the screen around each other.
 
 
-Customization
 
-==========
+Advanced Parameters
+===================
 
+Debug mode
+----------
+Enables additional logging and visual debugging tools.
 
+Rotation speed
+--------------
+Set the multiplier for translating finger rotation into rotation of the placeable.
 
+AR Plane Prefab
+---------------
+The visual representation for planes recognized by the AR System. Uses the default preset when not set.

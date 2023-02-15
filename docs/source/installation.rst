@@ -34,8 +34,8 @@ But it is best to double check in the package manager that it is installed.
 .. image:: images/ARFoundationPackage.png
     :width: 400
 
-Follow the *installation* and *Project setup* instructions provided in the `ARFoundation Docs`_.
-For Unity 2021, see `AR Foundation (Unity 2021)`_.
+Follow the *Install AR Foundation* and *Scene setup* instructions provided in the `ARFoundation Docs`_.
+For package installation in Unity 2021, see `AR Foundation (Unity 2021)`_.
 
 .. note::
    As stated in the Documentation, both ARFoundation and ARKit need to be set to the same version.
@@ -58,13 +58,13 @@ Follow the instructions from the `ARKit Docs`_.
    You can either install for iOS or Android or both. If you just need a single platform, you can skip the other one.
    The AR scanning guide at the beginning is only available for iOS.
 
-If you have any trouble setting up ARKit, meaning you can't build or get a black screen. `This is a great reference <https://docs.unity3d.com/Packages/com.unity.xr.arkit@5.0/manual/project-configuration-arkit.html>`_.
+If you have any trouble setting up ARKit, meaning you can't build or get a black screen, take a look at the `Unity Manual for ARCore setup`_. 
 
 Setting up for Android (AR Core)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Follow the instructions from the `ARCore Docs`_.
 
-If you have any trouble setting up ARCore, meaning you can't build or get a black screen. `This is a great reference <https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/project-configuration-arcore.html>`_.
+If you have any trouble setting up ARCore, meaning you can't build or get a black screen, take a look at the `Unity Manual for ARCore setup`_. 
 
 Optional: For testing inside the unity editor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -110,3 +110,5 @@ The two finger gestures for rotating and scaling will only work on an actual dev
 .. _ARKit Docs: https://docs.unity3d.com/Packages/com.unity.xr.arkit@5.0/manual/project-configuration-arkit.html
 .. _ARCore Docs: https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/project-configuration-arcore.html
 .. _AR Foundation (Unity 2021): https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/edit-your-project-manifest.html
+.. _Unity Manual for ARCore setup: https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/project-configuration-arcore.html
+.. _Unity Manual for ARKit setup: https://docs.unity3d.com/Packages/com.unity.xr.arkit@5.0/manual/project-configuration-arkit.html

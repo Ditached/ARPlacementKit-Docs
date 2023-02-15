@@ -12,7 +12,7 @@ Features:
     - Put any 3D Model into the AR Space without coding!
     - Smooth surface switching technology for the best AR positioning
     - Scaling and rotation with intuitive two-finger gestures
-    - Fine-tuning ui for extra precise positioning
+    - Additional high-precision interface for exact adjustments
     - Testing inside editor via AR Foundation 5.0+
 
 Quick Start Guide:
@@ -39,7 +39,7 @@ If you are having trouble, check out the :doc:`troubleshooting` section.
 Why AR Foundation 5.0+:
 ~~~~~~~~
 We decided to only support AR Foundation 5.0 as it is the newest version. There a major changes between versions and it is hard to support multiple of them.
-Version 5.0+ provides support for in-editor testing which is essential in our opinion.
+Version 5.0+ provides support for in-editor testing which is essential for unintrrupted development.
 
 Showcase
 ~~~~~~~~

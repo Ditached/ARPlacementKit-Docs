@@ -60,7 +60,7 @@ The placeable uses a separate ground collider to determine if it is currently co
 A larger number means the placeable will stay on the higher surface longer before dropping down to the lower one, a smaller one will lead to an earlier surface change.
 
 
-Ground Collider Scale
+Camera Collider Scale
 ---------------------
 The placeable uses a separate collider to determine if it is currently colliding with the camera. Based on this, the placeable will determine when to stop if it is moving towards the camera.
 A larger number leads to a higher minimum distance, setting a very small number will enable the placeable to move into the camera or pass through it.

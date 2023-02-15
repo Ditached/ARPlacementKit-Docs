@@ -50,13 +50,13 @@ The easiest way to do this, select Assets -> Settings -> URP-Performant-Renderer
 .. image:: images/RendererFile.png
     :width: 500
 .. image:: images/RendererFeature.png
-    :width: 500
+    :width: 380
 
 Then, to make sure that the edited Renderer is used, go to Edit -> Project Settings -> Quality and set the default quality to "Performant" for all profiles and set "Performant" as the active renderer by clicking the name left of the checkboxes.
  
 
 .. image:: images/QualitySettings.png
-    :width: 500
+    :width: 230
 
 Alternatively, follow these `steps here to set it up <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/universal-render-pipeline.html>`_ by creating the renderer from scratch.
 

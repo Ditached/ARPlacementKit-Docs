@@ -84,6 +84,8 @@ The smallest possible scale for the placeable when using the pinch gestures. Whe
 ******************
 AR Placement Guide
 ******************
+.. image:: images/CustomPrefab.png
+    :width: 400
 
 Enable Scaling
 ==============

@@ -44,11 +44,23 @@ For package installation in Unity 2021, see `AR Foundation (Unity 2021)`_.
 Setup URP with AR Foundation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 AR Foundation does not work right away with URP.
-Follow these `steps here to set it up <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/universal-render-pipeline.html>`_.
+You must add an "AR Background Renderer Feature" to the renderer.
+The easiest way to do this, select Assets -> Settings -> URP-Performant-Renderer.asset and in the inspector click "Add Renderer Feature" and select "AR Background Renderer Feature".
+
+Then, to make sure that the edited Renderer is used, go to Edit -> Project Settings -> Quality and set the default quality to "Performant" for all profiles.
+
+
+Alternatively, follow these `steps here to set it up <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/universal-render-pipeline.html>`_ by creating the renderer from scratch.
 
 .. note::
    Skipping this step will result in a glitched image
    
+
+Disable code-stripping
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+! not written yet !
+
+
 
 Setting up for iOS (AR Kit)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

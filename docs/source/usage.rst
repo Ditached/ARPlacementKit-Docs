@@ -22,7 +22,7 @@ Placeable Generator
 *******************
 
 Using your own model/prefab
----------------------------
+===========================
 By replacing the *Prefab* on the *Placeable Generator* in the inspector you can use your own prefab.
 Just drag in your model and everything should work out of the box. The transform inside the prefab will be preserved.
 Use the scale setting to change the initial scale of the object. It can still be resized during run-time using gestures.
@@ -36,7 +36,7 @@ A collider will also be added automatically. If you are unsure how to create a p
 If you are looking for an example prefab check out the sample one. 
 
 Creating a prefab
-=================
+-----------------
 .. note::
    If you know how to create a prefab, you can skip this section. 
 

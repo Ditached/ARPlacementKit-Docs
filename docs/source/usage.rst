@@ -32,3 +32,7 @@ Rotate the object by touching the screen with two fingers and rotating them arou
 Scaling
 =======
 Scale the object by touching the screen with two fingers and moving them further apart for enlarging the object or closer to each other for shrinking it (pinching gesture).
+
+Fine Tuning
+===========
+To open the fine tuning interface, click on the angle / scale display. To hide it tap anywhere else on the screen.

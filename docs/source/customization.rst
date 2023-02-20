@@ -32,6 +32,8 @@ Use the scale setting to change the initial scale of the object. It can still be
 
 This prefab should ideally only have a single *MeshRenderer* and a *MeshFilter* attached to it.
 
+If your model is floating too high or is inside the ground, try to adjust the "Pivot Location" setting to match the pivot point position of your model.
+
 A collider will also be added automatically. If you are unsure how to create a prefab, see the section below.
 If you are looking for an example prefab check out the sample one. 
 
@@ -55,8 +57,16 @@ Collision Type
 The type of collider used for collision detection.
 For precision reasons its recommended to use the Mesh option, but as a fallback you can switch to Box when working with unoptimized meshes.
 
+Pivot Point YPosition
+--------------------
+The y-location of the pivot point in your custom model.
+Used for scaling.
+Options are center and bottom, default is center.
+
+
 Ground Collider Scale
 ---------------------
+!!! obsolete !!!
 The placeable uses a separate ground collider to determine if it is currently connected to the ground. Based on this, surface switching to lower surfaces is triggered.
 A larger number means the placeable will stay on the higher surface longer before dropping down to the lower one, a smaller one will lead to an earlier surface change.
 

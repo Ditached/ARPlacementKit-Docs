@@ -80,6 +80,12 @@ If the object can be spawned but not moved
 Set Project Settings -> Player -> iOS -> Managed Stripping Level to "Minimal". See :doc:`installation`
 
 =================
+If the object can be spawned but floats too high above the ground or is positioned below it
+=================
+try adjusting the Pivot Position in Placeable Generator -> Advanced Settings.
+See :doc:`Customization`
+
+=================
 None of my errors is listed here
 =================
 Oh no! We do apologize for that. We try to support you as best and as quick as we can. Drop us a mail at support@ditached.de and we will try to help you out.

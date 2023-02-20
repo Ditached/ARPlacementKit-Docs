@@ -14,15 +14,15 @@ Recommended Way: Using the template project
 
 We provide a template project ready to use on Github. Make sure you have Unity Version 2021.2 or higher installed.
 
-`Click here for the template project.`_
+`Click here for the template project on Github <https://github.com/Ditached/Unity-ARFoundation-Template>`_
 
 You can either download it using git but for this purpose, just download it as a zip from Github works perfectly fine.
 
 .. image:: images/Github.png
     :width: 300
 
-As it is a publicly accessible repo. The *AR Placement Kit is not included in the package*. You need to download it from the package manager.
-You can skip the *Manually Setting up AR Foundation* section when using the template project. Just move on to the :doc:`Sample Scene` section.
+As it is a publicly accessible repo. The **AR Placement Kit is not included in the project**. You need to download it from the package manager.
+You can skip the *Manually Setting up AR Foundation* section when using the template project. Just move on to the `<Sample Scene https://arplacementkit-docs.readthedocs.io/en/latest/installation.html#sample-scene>`_ section.
 
 =================
 Manually Setting up AR Foundation
@@ -165,4 +165,4 @@ The two finger gestures for rotating and scaling will only work on an actual dev
 .. _Unity Manual for ARCore setup: https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/project-configuration-arcore.html
 .. _Unity Manual for ARKit setup: https://docs.unity3d.com/Packages/com.unity.xr.arkit@5.0/manual/project-configuration-arkit.html
 .. _Unity Manual - Code Stripping: https://docs.unity3d.com/Manual/ManagedCodeStripping.html
-.. _Repo: https://github.com/Ditached/Unity-ARFoundation-Template
+.. _Template Project Repo: https://github.com/Ditached/Unity-ARFoundation-Template

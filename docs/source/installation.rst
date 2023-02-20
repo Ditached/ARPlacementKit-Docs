@@ -3,6 +3,31 @@ Getting Started
 #####
 .. autosummary::
    :toctree: generated
+
+
+=================
+Recommended Way: Using the template project
+=================
+
+.. note::
+   This is the fastest way if you are starting from scratch. It is also the best way to make sure that everything is set up correctly.
+
+We provide a template project ready to use on Github. Make sure you have Unity Version 2021.2 or higher installed.
+
+`Click here for the template project.`_
+
+You can either download it using git but for this purpose, just download it as a zip from Github works perfectly fine.
+
+.. image:: images/Github.png
+    :width: 300
+
+As it is a publicly accessible repo. The *AR Placement Kit is not included in the package*. You need to download it from the package manager.
+You can skip the *Manually Setting up AR Foundation* section when using the template project. Just move on to the :doc:`Sample Scene` section.
+
+=================
+Manually Setting up AR Foundation
+=================
+
 **It is recommended to start with a new project. The best option is to use the 3D (URP) starting template provided by Unity when starting a new project.**
 
 .. image:: images/3DCore.png
@@ -21,12 +46,8 @@ When first installing the package from the package manager it might warn you tha
 
 After the editor has restarted, you can start using the package. If at this point there are any error related to the package, make sure to check it out the troubleshooting section. Again, a new project is the best way to make sure no conflicts with other packages are the problem.
 
-=================
-Setting up AR Foundation
-=================
-
 .. note::
-   This following part is only related to AR Foundation. It is the same whether you use AR Placement Kit or not. If you have experience setting AR Foundation you can skip this part.
+   This following part is only related to AR Foundation. It is the same whether you use AR Placement Kit or not. If you have experience setting AR Foundation you can skip this part. Also note that we provide a template project.
 
 If you have started with a new project, you need to set up AR Foundation first. AR Foundation is will automatically be installed by the Placement Kit as it is an dependecy. 
 But it is best to double check in the package manager that it is installed.
@@ -144,3 +165,4 @@ The two finger gestures for rotating and scaling will only work on an actual dev
 .. _Unity Manual for ARCore setup: https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/project-configuration-arcore.html
 .. _Unity Manual for ARKit setup: https://docs.unity3d.com/Packages/com.unity.xr.arkit@5.0/manual/project-configuration-arkit.html
 .. _Unity Manual - Code Stripping: https://docs.unity3d.com/Manual/ManagedCodeStripping.html
+.. _Repo: https://github.com/Ditached/Unity-ARFoundation-Template

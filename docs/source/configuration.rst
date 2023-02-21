@@ -52,29 +52,9 @@ This prefab can then be used in the *Placeable Generator*. Just select the XR Or
 Advanced Parameters
 ===================
 
-Collision Type
---------------
-The type of collider used for collision detection.
-For precision reasons its recommended to use the Mesh option, but as a fallback you can switch to Box when working with unoptimized meshes.
-
-Pivot Point YPosition
---------------------
-The y-location of the pivot point in your custom model.
-Used for scaling.
-Options are center and bottom, default is center.
-
-
-Ground Collider Scale
----------------------
-!!! obsolete !!!
-The placeable uses a separate ground collider to determine if it is currently connected to the ground. Based on this, surface switching to lower surfaces is triggered.
-A larger number means the placeable will stay on the higher surface longer before dropping down to the lower one, a smaller one will lead to an earlier surface change.
-
-
-Camera Collider Scale
----------------------
-The placeable uses a separate collider to determine if it is currently colliding with the camera. Based on this, the placeable will determine when to stop if it is moving towards the camera.
-A larger number leads to a higher minimum distance, setting a very small number will enable the placeable to move into the camera or pass through it.
+Min Scale
+---------
+The smallest possible scale for the placeable when using the pinch gestures. When the scale is smaller or equal to this value, all instructions to reduce the placeable's scale are disregarded.
 
 Transition Speed
 ----------------
@@ -87,14 +67,16 @@ The minimum distance for a transition to be triggered. If the distance to the ta
 Raise this value if the placeable lags behind when dragging it with a finger gesture.
 Higher values lead to fewer transitions.
 
-Min Scale
----------
-The smallest possible scale for the placeable when using the pinch gestures. When the scale is smaller or equal to this value, all instructions to reduce the placeable's scale are disregarded.
+Pivot Type
+--------------------
+The y-location of the pivot point in your custom model.
+Used for scaling.
+Options are center and bottom, default is center.
 
 ******************
 AR Placement Guide
 ******************
-.. image:: images/CustomPrefab.png
+.. image:: images/ARPlacementGuideAdvanced.png
     :width: 400
 
 Enable Scaling

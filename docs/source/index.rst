@@ -32,7 +32,7 @@ Quick Start Guide:
     </embed>
    
  
-**For a written guide** check out the :doc:`installation` section first!. If you got the package already setup and running, check out the :doc:`customization` section for a guide on how to work with the package.
+**For a written guide** check out the :doc:`installation` section first!. If you got the package already setup and running, check out the :doc:`configuration` section for a guide on how to work with the package.
 
 If you are having trouble, check out the :doc:`troubleshooting` section.
 
@@ -62,7 +62,7 @@ Contents
 .. toctree::
 
    installation
-   customization
+   configuration
    usage
    troubleshooting
    about-us

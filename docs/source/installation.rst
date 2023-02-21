@@ -173,7 +173,7 @@ Setting up Tags and Layers
 For the placement guide to function, appropriate Tags and Layers must be set in the Project Settings. The easiest way is to import the preset from the package.
 To do this, navigate to Project Settings -> Tags and Layers, then click on the preset icon in the top left of the window and choose "Tags&Layers PlacementKit".
 
-.. image:: Tags&LayersPreset.png
+.. image:: images/Tags&LayersPreset.png
     :width: 400
            
 .. note::
@@ -181,9 +181,23 @@ To do this, navigate to Project Settings -> Tags and Layers, then click on the p
 
 Alternatively, you can manually add the layers to your Project. The order and index does not matter.
 
-.. image:: Tags&LayersPreset.png
+.. image:: images/Tags&Layers.png
     :width: 400
            
+Tags
+----
+Placeable
+ReceiveShadows
+
+Layers
+------
+RepositioningPlane
+Placeable
+SurfaceCollider
+PlaceableContactCollider
+CameraCollider
+
+    
             
 .. _ARFoundation Docs: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/project-setup.html
 .. _ARKit Docs: https://docs.unity3d.com/Packages/com.unity.xr.arkit@5.0/manual/project-configuration-arkit.html

@@ -30,11 +30,14 @@ You can either download it using git but for this purpose, just download it as a
     :width: 300
 
 As it is a publicly accessible repo. The **AR Placement Kit is not included in the project**. You need to download it from the package manager.
-You can skip the *Manually Setting up AR Foundation* section when using the template project. Just move on to the `<Sample Scene https://arplacementkit-docs.readthedocs.io/en/latest/installation.html#sample-scene>`_ section.
+You can skip the *Manually Setting up AR Foundation* section when using the template project. Just move on to the `<Sample Scene https://arplacementkit-docs.readthedocs.io/en/latest/installation.html#sample-scene>`_. section.
 
 =================
 Manually Setting up AR Foundation
 =================
+
+.. note::
+   If you used the template project from Github, you can skip this section.
 
 **It is recommended to start with a new project. The best option is to use the 3D (URP) starting template provided by Unity when starting a new project.**
 

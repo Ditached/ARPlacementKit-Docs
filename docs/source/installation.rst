@@ -79,7 +79,7 @@ Then, to make sure that the edited Renderer is used, go to Edit -> Project Setti
 .. image:: images/QualitySettings.png
     :width: 230
 
-Alternatively, follow these `steps here to set it up <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/universal-render-pipeline.html>`_ by creating the renderer from scratch.
+Alternatively, follow these `steps here to set it up <https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/universal-render-pipeline.html>`_. by creating the renderer from scratch.
 
 .. note::
    Skipping this step will result in a glitched image

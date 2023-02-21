@@ -142,9 +142,9 @@ Validate! Don't skip this
 
 You can check Android and iOS. Make sure everything is green.
 
-=================
+============
 Sample Scene
-=================
+============
 In the package there is a sample scene. It is located in the folder *Samples* in the package. It is called *ARPlacementKitSample*.
 After opening it you should see the following hierachy:
 
@@ -164,8 +164,24 @@ It should something like this.
 
 The two finger gestures for rotating and scaling will only work on an actual device. The *XR Simulation* does not support it.
 
+==========================
+Setting up Tags and Layers
+==========================
+For the placement guide to function, appropriate Tags and Layers must be set in the Project Settings. The easiest way is to import the preset from the package.
+To do this, navigate to Project Settings -> Tags and Layers, then click on the preset icon in the top left of the window and choose "Tags&Layers PlacementKit".
 
+.. image:: Tags&LayersPreset.png
+    :width: 400
+           
+.. note::
+  WARNING! This will replace any existing tags or layers. 
 
+Alternatively, you can manually add the layers to your Project. The order and index does not matter.
+
+.. image:: Tags&LayersPreset.png
+    :width: 400
+           
+            
 .. _ARFoundation Docs: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/project-setup.html
 .. _ARKit Docs: https://docs.unity3d.com/Packages/com.unity.xr.arkit@5.0/manual/project-configuration-arkit.html
 .. _ARCore Docs: https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/project-configuration-arcore.html

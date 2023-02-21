@@ -185,17 +185,20 @@ Alternatively, you can manually add the layers to your Project. The order and in
     :width: 400
            
 Tags
-----
-Placeable
-ReceiveShadows
+====
+
+* Placeable
+* ReceiveShadows
+
 
 Layers
-------
-RepositioningPlane
-Placeable
-SurfaceCollider
-PlaceableContactCollider
-CameraCollider
+======
+
+* RepositioningPlane
+* Placeable
+* SurfaceCollider
+* PlaceableContactCollider
+* CameraCollider
 
     
             

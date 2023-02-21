@@ -9,6 +9,14 @@ Getting Started
 Recommended Way: Using the template project
 =================
 
+.. raw:: html
+
+    <embed>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/g8V4sUp5q_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div margin-bottom="50px">
+        <div padding="50px" height="50px">
+    </embed>
+
 .. note::
    This is the fastest way if you are starting from scratch. It is also the best way to make sure that everything is set up correctly.
 

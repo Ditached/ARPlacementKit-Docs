@@ -2,7 +2,7 @@
 
 Object positioning in AR done right.
 
-![Alt text](images/arplacementthumbnail.jpeg "Optional title")
+![Alt text](images/arplacementthumbnail.jpeg)
 
 ## Features
 

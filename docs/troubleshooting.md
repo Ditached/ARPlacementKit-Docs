@@ -16,11 +16,11 @@ If you have trouble installing the package, you can check out [this guide from U
 
 This probably means that AR Foundation is not working correctly. Make sure that ARKit/ARCore is enabled in the project settings.
 
-![Image title](images/ARPlugin.png){ align=left }
+![Image title](images/ARPlugin.png){ align=left, width=400px }
 
 Next, make sure in the Player Settings that ARKit/ARCore is enabled, too.
 
-![Image title](images/ARKitEnabled.png){ align=left }
+![Image title](images/ARKitEnabled.png){ align=left, width=400px }
 
 For a comprehensive guide, you should check out [this guide from Unity](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/install-arfoundation.html).
 
@@ -28,7 +28,7 @@ For a comprehensive guide, you should check out [this guide from Unity](https://
 
 If it looks something like this
 
-![Image title](images/Glitch.jpeg){ align=left }
+![Image title](images/Glitch.jpeg){ align=left, width=350px }
 
 when deploying to your device, then URP is not setup with AR Foundation.
 Follow these [steps here to fix it](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/universal-render-pipeline.html).
@@ -46,7 +46,7 @@ This is a Unity related error. Restarting the project seems to help.
 
 XCode requires a provising profile whenever you make an build. Setting XCode to automatically manage signing should work.
 
-![Image title](images/XCodeSigning.png){ align=left }
+![Image title](images/XCodeSigning.png){ align=left, width=500px }
 
 For further information make sure to check the Unity and or XCode docs.
 
@@ -57,7 +57,7 @@ Follow these [steps here to fix it](https://docs.unity3d.com/Packages/com.unity.
 
 Another great way is to use the validation window. Make sure everything is green here.
 
-![Image title](images/Validation.png){ align=left }
+![Image title](images/Validation.png){ align=left, width=500px }
 
 ### If the object can be spawned but not moved
 

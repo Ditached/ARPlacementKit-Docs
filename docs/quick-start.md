@@ -14,7 +14,7 @@ We provide a template project ready to use on Github. Make sure you have Unity V
 
 You can either download it using git but for this purpose, just download it as a zip from Github works perfectly fine.
 
-![Image title](images/Github.png){ align=left }
+![Image title](images/Github.png){ align=left, width=300px }
 
 As it is a publicly accessible repo. The **AR Placement Kit is not included in the project**. You need to download it from the package manager.
 You can skip the *Manually Setting up AR Foundation* section when using the template project. Just move on to the [SampleScenehttps://arplacementkit-docs.readthedocs.io/en/latest/installation.html#sample-scene](SampleScenehttps://arplacementkit-docs.readthedocs.io/en/latest/installation.html#sample-scene). section.
@@ -41,14 +41,14 @@ You can skip the *Manually Setting up AR Foundation* section when using the temp
 In the package there is a sample scene. It is located in the folder *Samples* in the package. It is called *ARPlacementKitSample*.
 After opening it you should see the following hierachy:
 
-![Image title](images/Hierachy.png){ align=left }
+![Image title](images/Hierachy.png){ align=left, width=400px }
 
 Before customizing anything, make sure to press *Play* if you have the *XR Simulation* enabled. Otherwise, create a build on your target device to validate that everything works.
 If you run into any troubles at this point, check out the {doc}`troubleshooting` section.
 
 It should something like this.
 
-![Image title](images/XRSimulation.png){ align=left }
+![Image title](images/XRSimulation.png){ align=left, width=400px }
 
 !!! note
 

@@ -1,0 +1,30 @@
+site_name: AR Placement Kit
+theme:
+  name: readthedocs
+  highlightjs: true
+nav:
+  - "index.md"
+  - "quick-start.md"
+  - "installation.md"
+  - "configuration.md"
+  - "usage.md"
+  - "troubleshooting.md"
+  - "about.md"
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        # See: https://mkdocstrings.github.io/python/usage/
+        python:
+          options:
+            docstring_style: sphinx
+  - mkdocs-video
+  - glightbox
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: True
+  - attr_list
+  - md_in_html
+theme:
+  name: material

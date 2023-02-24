@@ -2,6 +2,14 @@ site_name: AR Placement Kit
 theme:
   name: readthedocs
   highlightjs: true
+nav:
+  - "index.md"
+  - "quick-start.md"
+  - "manual-installation.md"
+  - "configuration.md"
+  - "usage.md"
+  - "troubleshooting.md"
+  - "about.md"
 plugins:
   - search
   - mkdocstrings:

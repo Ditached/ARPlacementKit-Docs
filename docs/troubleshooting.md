@@ -61,12 +61,12 @@ Another great way is to use the validation window. Make sure everything is green
 
 ### If the object can be spawned but not moved
 
-Set Project Settings -> Player -> iOS -> Managed Stripping Level to "Minimal". See {doc}`installation`
+Set Project Settings -> Player -> iOS -> Managed Stripping Level to "Minimal". See [installation](./installation.md)
 
 ### If the object can be spawned but floats too high above the ground or is positioned below it
 
 try adjusting the Pivot Position in Placeable Generator -> Advanced Settings.
-See {doc}`Customization`
+See [Customization](./customization.md)
 
 ### None of my errors is listed here
 

@@ -44,7 +44,7 @@ After opening it you should see the following hierachy:
 ![Image title](images/Hierachy.png){ align=left, width=400px }
 
 Before customizing anything, make sure to press *Play* if you have the *XR Simulation* enabled. Otherwise, create a build on your target device to validate that everything works.
-If you run into any troubles at this point, check out the {doc}`troubleshooting` section.
+If you run into any troubles at this point, check out the [troubleshooting](./troubleshooting.md) section.
 
 It should something like this.
 

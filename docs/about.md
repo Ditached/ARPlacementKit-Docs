@@ -1,3 +1,12 @@
+# About this Project
+## Why we made it / Design goals
+lorem ipsum
+
+## Why AR Foundation 5.0+
+
+We decided to only support AR Foundation 5.0 as it is the newest version. There a major changes between versions and it is hard to support multiple of them.
+Version 5.0+ provides support for in-editor testing which is essential for unintrrupted development.
+
 # About us
 
 Hey, we are Ditached! A **Creative Technology Studio**.

@@ -39,9 +39,7 @@ If you are looking for an example prefab check out the sample one.
 
 #### Creating a prefab
 
-:::{note}
-If you know how to create a prefab, you can skip this section.
-:::
+>If you know how to create a prefab, you can skip this section.
 
 If you have a model that you want to use, you can create a prefab from it.
 First import your model into Unity. Then select it in the Hierarchy and drag it into the Project window. This will create a prefab from the model.

@@ -10,9 +10,7 @@
 
 ![type:video](![type:video](https://www.youtube.com/embed/LXb3EKWsInQ))
 
-:::{note}
-This is the fastest way if you are starting from scratch. It is also the best way to make sure that everything is set up correctly.
-:::
+>This is the fastest way if you are starting from scratch. It is also the best way to make sure that everything is set up correctly.
 
 We provide a template project ready to use on Github. Make sure you have Unity Version 2021.2 or higher installed.
 
@@ -45,9 +43,7 @@ It should something like this.
 :width: 400
 ```
 
-:::{note}
-If this is your first time using the *XR Simulation* make sure to check out the [documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/xr-simulation/simulation-getting-started.html).
-:::
+> If this is your first time using the *XR Simulation* make sure to check out the [documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/xr-simulation/simulation-getting-started.html).
 
 The two finger gestures for rotating and scaling will only work on an actual device. The *XR Simulation* does not support it.
 

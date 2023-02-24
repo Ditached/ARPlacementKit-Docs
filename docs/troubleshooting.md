@@ -2,10 +2,8 @@
 
 ## Common Errors
 
-:::{note}
-Starting a new project and following the setup carefully should prevent all of the following errors.
-But this is a great reference anyway if you may have missed a step.
-:::
+>Starting a new project and following the setup carefully should prevent all of the following errors.
+>But this is a great reference anyway if you may have missed a step.
 
 ### How do I install this package
 

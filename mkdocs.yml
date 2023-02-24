@@ -1,4 +1,4 @@
-site_name: Basic MkDocs Example Project
+site_name: AR Placement Kit
 theme:
   name: readthedocs
   highlightjs: true
@@ -11,7 +11,10 @@ plugins:
           options:
             docstring_style: sphinx
   - mkdocs-video
+  - glightbox
 markdown_extensions:
   - admonition
   - toc:
       permalink: True
+  - attr_list
+  - md_in_html

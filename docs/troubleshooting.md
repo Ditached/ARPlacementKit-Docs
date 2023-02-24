@@ -2,8 +2,11 @@
 
 ## Common Errors
 
->Starting a new project and following the setup carefully should prevent all of the following errors.
->But this is a great reference anyway if you may have missed a step.
+
+!!! note
+
+    Starting a new project and following the setup carefully should prevent all of the following errors.
+    But this is a great reference anyway if you may have missed a step.
 
 ### How do I install this package
 
@@ -13,15 +16,11 @@ If you have trouble installing the package, you can check out [this guide from U
 
 This probably means that AR Foundation is not working correctly. Make sure that ARKit/ARCore is enabled in the project settings.
 
-```{image} images/ARPlugin.png
-:width: 400
-```
+![Image title](images/ARPlugin.png){ align=left }
 
 Next, make sure in the Player Settings that ARKit/ARCore is enabled, too.
 
-```{image} images/ARKitEnabled.png
-:width: 400
-```
+![Image title](images/ARKitEnabled.png){ align=left }
 
 For a comprehensive guide, you should check out [this guide from Unity](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/install-arfoundation.html).
 
@@ -29,9 +28,7 @@ For a comprehensive guide, you should check out [this guide from Unity](https://
 
 If it looks something like this
 
-```{image} images/Glitch.jpeg
-:width: 350
-```
+![Image title](images/Glitch.jpeg){ align=left }
 
 when deploying to your device, then URP is not setup with AR Foundation.
 Follow these [steps here to fix it](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/universal-render-pipeline.html).
@@ -49,9 +46,7 @@ This is a Unity related error. Restarting the project seems to help.
 
 XCode requires a provising profile whenever you make an build. Setting XCode to automatically manage signing should work.
 
-```{image} images/XCodeSigning.png
-:width: 500
-```
+![Image title](images/XCodeSigning.png){ align=left }
 
 For further information make sure to check the Unity and or XCode docs.
 
@@ -62,9 +57,7 @@ Follow these [steps here to fix it](https://docs.unity3d.com/Packages/com.unity.
 
 Another great way is to use the validation window. Make sure everything is green here.
 
-```{image} images/Validation.png
-:width: 500
-```
+![Image title](images/Validation.png){ align=left }
 
 ### If the object can be spawned but not moved
 

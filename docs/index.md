@@ -4,7 +4,7 @@ Object positioning in AR done right.
 
 ![Alt text](images/arplacementthumbnail.jpeg "Optional title")
 
-## Features:
+## Features
 
 > - Put any 3D Model into the AR Space without coding!
 > - Move the object freely between surfaces
@@ -13,9 +13,12 @@ Object positioning in AR done right.
 > - Testing inside editor via AR Foundation 5.0+
 > - Smooth movement via lerping for all types of movement
 
-## Quick Start Guide:
+## Quick Start Guide
 
->You can either use the video as tutorial or follow the {doc}`installation` section.
+!!! note
+
+    You can either use the video as tutorial or follow the {doc}`installation` section.
+
 
 ![type:video](https://www.youtube.com/embed/g8V4sUp5q_Q)
 
@@ -23,9 +26,11 @@ Object positioning in AR done right.
 
 If you are having trouble, check out the {doc}`troubleshooting` section.
 
->Please follow the setup instructions carefully. We provide a template project for the fastest and most reliable experience. Most errors occur by not setting up AR Foundation correctly, which is unrelated to this package. We provide some guide anyways to make sure you get started as easy as possible.
+!!! note
 
-## Why AR Foundation 5.0+:
+    Please follow the setup instructions carefully. We provide a template project for the fastest and most reliable experience. Most errors occur by not setting up AR Foundation correctly, which is unrelated to this package. We provide some guide anyways to make sure you get started as easy as possible.
+
+## Why AR Foundation 5.0+
 
 We decided to only support AR Foundation 5.0 as it is the newest version. There a major changes between versions and it is hard to support multiple of them.
 Version 5.0+ provides support for in-editor testing which is essential for unintrrupted development.
@@ -35,5 +40,7 @@ Version 5.0+ provides support for in-editor testing which is essential for unint
 
 ![type:video](https://www.youtube.com/embed/P2HiouySJG8)
 
-> The coaching overlay at beginning is an AR Kit only feature, meaning it is on iOS exclusivly.
+!!! note
+
+    The coaching overlay at beginning is an AR Kit only feature, meaning it is on iOS exclusivly.
 

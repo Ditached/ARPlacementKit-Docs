@@ -10,7 +10,9 @@
 
 ![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
 
->This is the fastest way if you are starting from scratch. It is also the best way to make sure that everything is set up correctly.
+!!! note
+
+    This is the fastest way if you are starting from scratch. It is also the best way to make sure that everything is set up correctly.
 
 We provide a template project ready to use on Github. Make sure you have Unity Version 2021.2 or higher installed.
 
@@ -18,9 +20,7 @@ We provide a template project ready to use on Github. Make sure you have Unity V
 
 You can either download it using git but for this purpose, just download it as a zip from Github works perfectly fine.
 
-```{image} images/Github.png
-:width: 300
-```
+![Image title](images/Github.png){ align=left }
 
 As it is a publicly accessible repo. The **AR Placement Kit is not included in the project**. You need to download it from the package manager.
 You can skip the *Manually Setting up AR Foundation* section when using the template project. Just move on to the [SampleScenehttps://arplacementkit-docs.readthedocs.io/en/latest/installation.html#sample-scene](SampleScenehttps://arplacementkit-docs.readthedocs.io/en/latest/installation.html#sample-scene). section.
@@ -30,20 +30,18 @@ You can skip the *Manually Setting up AR Foundation* section when using the temp
 In the package there is a sample scene. It is located in the folder *Samples* in the package. It is called *ARPlacementKitSample*.
 After opening it you should see the following hierachy:
 
-```{image} images/Hierachy.png
-:width: 400
-```
+![Image title](images/Hierachy.png){ align=left }
 
 Before customizing anything, make sure to press *Play* if you have the *XR Simulation* enabled. Otherwise, create a build on your target device to validate that everything works.
 If you run into any troubles at this point, check out the {doc}`troubleshooting` section.
 
 It should something like this.
 
-```{image} images/XRSimulation.png
-:width: 400
-```
+![Image title](images/XRSimulation.png){ align=left }
 
-> If this is your first time using the *XR Simulation* make sure to check out the [documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/xr-simulation/simulation-getting-started.html).
+!!! note
+
+    If this is your first time using the *XR Simulation* make sure to check out the [documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/xr-simulation/simulation-getting-started.html).
 
 The two finger gestures for rotating and scaling will only work on an actual device. The *XR Simulation* does not support it.
 

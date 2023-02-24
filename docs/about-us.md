@@ -7,7 +7,9 @@ Hey, we are Ditached! A **Creative Technology Studio**.
 
 ## What we do
 
-> Check out [our website](https://ditached.com) for cool projects.
+!!! note
+
+    Check out [our website](https://ditached.com) for cool projects.
 
 We are a dedicated, small studio with expertise in design and technology. Driven by passion, conceptual thinking and talent, together we will find the best possible solution for your vision.
 

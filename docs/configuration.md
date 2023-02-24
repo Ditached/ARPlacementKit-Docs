@@ -1,19 +1,13 @@
 # Configuration
 
-(id1)=
-
 The two most important components of this package are the AR Placement Guide\* and the *Placeable Generator*. Both have to be on the same GameObject as the XR Origin.
 It is best to check the sample scene for a working example.
 
-```{image} images/Inspector.png
-:width: 400
-```
+![Image title](images/Inspector.png)
 
 Most settings can be found on those two components. In general your hierachy should look something like this:
 
-```{image} images/Hierachy.png
-:width: 400
-```
+![Image title](images/Hierachy.png){ align=left }
 
 If you are not using the sample scene as a starting point, you will have to add the *AR Placement Guide* and the *Placeable Generator* to the XR Origin GameObject.
 As well as *AR Kit Coaching Overlay* to the *AR Session* GameObject (though this is optional as it is an iOS only feature).
@@ -26,9 +20,7 @@ By replacing the *Prefab* on the *Placeable Generator* in the inspector you can 
 Just drag in your model and everything should work out of the box. The transform inside the prefab will be preserved.
 Use the scale setting to change the initial scale of the object. It can still be resized during run-time using gestures.
 
-```{image} images/CustomPrefab.png
-:width: 400
-```
+![Image title](images/CustomPrefab.png){ align=left }
 
 This prefab should ideally only have a single *MeshRenderer* and a *MeshFilter* attached to it.
 
@@ -39,7 +31,9 @@ If you are looking for an example prefab check out the sample one.
 
 #### Creating a prefab
 
->If you know how to create a prefab, you can skip this section.
+!!! note
+
+    If you know how to create a prefab, you can skip this section.
 
 If you have a model that you want to use, you can create a prefab from it.
 First import your model into Unity. Then select it in the Hierarchy and drag it into the Project window. This will create a prefab from the model.
@@ -72,9 +66,7 @@ Options are center and bottom, default is center.
 
 ## AR Placement Guide
 
-```{image} images/ARPlacementGuideAdvanced.png
-:width: 400
-```
+![Image title](images/ARPlacementGuideAdvanced.png){ align=left }
 
 ### Enable Scaling
 

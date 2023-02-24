@@ -1,14 +1,8 @@
 # Quick-start guide
 
-```{eval-rst}
-.. autosummary::
-   :toctree: generated
-
-```
-
 ## Using the template project
 
-![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
+![type:video](https://www.youtube.com/embed/g8V4sUp5q_Q)
 
 !!! note
 
@@ -25,7 +19,24 @@ You can either download it using git but for this purpose, just download it as a
 As it is a publicly accessible repo. The **AR Placement Kit is not included in the project**. You need to download it from the package manager.
 You can skip the *Manually Setting up AR Foundation* section when using the template project. Just move on to the [SampleScenehttps://arplacementkit-docs.readthedocs.io/en/latest/installation.html#sample-scene](SampleScenehttps://arplacementkit-docs.readthedocs.io/en/latest/installation.html#sample-scene). section.
 
+
+## XR Environment
+### Select XR Environment Preset
+### If Shaders are glitched
+### Navigation
+### Official Docs
+
+## Import TMP Essentials
+### Hit install
+
+
+## Install ARPlacementKit
+### Accept dependecies
+### Import everything
+
 ## Sample Scene
+
+## Set phone resolution in Game view
 
 In the package there is a sample scene. It is located in the folder *Samples* in the package. It is called *ARPlacementKitSample*.
 After opening it you should see the following hierachy:
@@ -43,7 +54,8 @@ It should something like this.
 
     If this is your first time using the *XR Simulation* make sure to check out the [documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/xr-simulation/simulation-getting-started.html).
 
-The two finger gestures for rotating and scaling will only work on an actual device. The *XR Simulation* does not support it.
+The two finger gestures for rotating and scaling will only work on an actual device. The *XR Simulation** does not support it.
+
 
 [ar foundation (unity 2021)]: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/edit-your-project-manifest.html
 [arcore docs]: https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/project-configuration-arcore.html

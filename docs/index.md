@@ -2,7 +2,8 @@
 
 Object positioning in AR done right.
 
-![type:video](https://www.youtube.com/embed/P2HiouySJG8)
+![type:video](https://www.youtube.com/embed/g8V4sUp5q_Q)
+
 
 ## Features
 
@@ -15,7 +16,7 @@ Object positioning in AR done right.
 
 ## Quick start
 ### Video Guide
-![type:video](https://www.youtube.com/embed/g8V4sUp5q_Q)
+![type:video](https://www.youtube.com/embed/P2HiouySJG8)
 
 ### Written Guide
 See [Quick Start](./quick-start.md).

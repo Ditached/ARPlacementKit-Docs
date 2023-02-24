@@ -5,7 +5,7 @@ theme:
 nav:
   - "index.md"
   - "quick-start.md"
-  - "manual-installation.md"
+  - "installation.md"
   - "configuration.md"
   - "usage.md"
   - "troubleshooting.md"
@@ -26,3 +26,5 @@ markdown_extensions:
       permalink: True
   - attr_list
   - md_in_html
+theme:
+  name: material

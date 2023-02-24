@@ -46,6 +46,7 @@ mkdocstrings-python==0.7.1
     # via mkdocstrings
 mkdocs-video
 mkdocs-glightbox
+mkdocs-material
 packaging==21.3
     # via mkdocs
 pymdown-extensions==9.5

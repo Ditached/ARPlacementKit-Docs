@@ -1,10 +1,8 @@
 # Usage
 
-(id1)=
-
 ## Scanning the environment
 
-When prompted by the coaching overlay, move the device in slow circular motions, keeping the camera roughly pointed in the same direction.
+When prompted by the coaching overlay, move the device slowly, looking at surfaces from different angles.
 After a few seconds, recognized surfaces should get marked with a grid of blue circles.
 
 ## Initial placement

@@ -68,6 +68,10 @@ Set Project Settings -> Player -> iOS -> Managed Stripping Level to "Minimal". S
 try adjusting the Pivot Position in Placeable Generator -> Advanced Settings.
 See [Customization](./customization.md)
 
+### I don't see a coaching overlay
+The coaching overlay at beginning is an AR Kit only feature, meaning it is on iOS exclusivly.
+
 ### None of my errors is listed here
 
 Oh no! We do apologize for that. We try to support you as best and as quick as we can. Drop us a mail at <mailto:support@ditached.de> and we will try to help you out.
+

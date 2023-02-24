@@ -1,11 +1,11 @@
 # Configuration
 
-The two most important components of this package are the AR Placement Guide\* and the *Placeable Generator*. Both have to be on the same GameObject as the XR Origin.
+The two most important components of this package are the AR Placement Guide\* and the *Placeable Generator*. Both need to be on the same GameObject as the XR Origin.
 It is best to check the sample scene for a working example.
 
 ![Image title](images/Inspector.png){ width=400px }
 
-Most settings can be found on those two components. In general your hierachy should look something like this:
+These two components contain most of the settings. In general your hierachy should look something like this:
 
 ![Image title](images/Hierachy.png){ width=400px, align=center }
 
@@ -41,51 +41,75 @@ This prefab can then be used in the *Placeable Generator*. Just select the XR Or
 
 [More info on creating prefabs](https://docs.unity3d.com/Manual/CreatingPrefabs.html).
 
-### Advanced Parameters
+### Advanced parameters
+
 
 #### Min Scale
 
-The smallest possible scale for the placeable when using the pinch gestures. When the scale is smaller or equal to this value, all instructions to reduce the placeable's scale are disregarded.
 
-#### Transition Speed
+The smallest possible scale for the placeable when using the pinch gesture. If the scale is less than or equal to this value, all instructions to reduce the scale of the placeable will be ignored.
 
-The speed in which the placeable transitions between surfaces with different height levels.
-Higher numbers lead to shorter transition time.
+
+#### Transition speed
+
+
+The speed at which the placeable transitions between surfaces of different heights.
+
+Higher numbers result in shorter transition times.
+
 
 #### Transition Threshold
 
-The minimum distance for a transition to be triggered. If the distance to the target position is smaller than this value, the movement will be instantaneous.
-Raise this value if the placeable lags behind when dragging it with a finger gesture.
-Higher values lead to fewer transitions.
 
-#### Pivot Type
+The minimum distance for a transition to be triggered. If the distance to the target position is less than this value, the movement will be instantaneous.
+
+Increase this value if the placeable lags behind when dragged with a finger gesture.
+
+Higher values result in fewer transitions.
+
+
+#### Pivot type
+
 
 The y-location of the pivot point in your custom model.
-Used for scaling.
-Options are center and bottom, default is center.
+
+Options are centre and bottom, default is centre.
+
 
 ## AR Placement Guide
 
-![Image title](images/ARPlacementGuideAdvanced.png){ width=400px, align=right, padding=30px }
 
-### Enable Scaling
+![Image Title](images/ARPlacementGuideAdvanced.png){ width=400px, align=right, padding=30px }
 
-Enable scaling the placeable using a pinch gesture.
 
-### Enable Rotation
+### Enable scaling
 
-Enable rotating the placeable by rotating the first 2 fingers that touch the screen around each other.
 
-### Advanced Parameters
+Enable scaling of the placeable using a pinch gesture.
 
-#### Debug mode
+
+### Enable rotation
+
+
+Enable rotation of the placeable by rotating the first 2 fingers that touch the screen around each other.
+
+
+### Advanced parameters
+
+
+#### Debug Mode
+
 
 Enables additional logging and visual debugging tools.
 
-#### Rotation speed
 
-Set the multiplier for translating finger rotation into rotation of the placeable.
+#### Rotation Speed
+
+
+Sets the multiplier for translating finger rotation into placeable rotation.
+
 
 #### AR Plane Prefab
 
-The visual representation for planes recognized by the AR System. Uses the default preset when not set.
+
+The visual representation for planes recognised by the AR system. Uses the default preset if not set.

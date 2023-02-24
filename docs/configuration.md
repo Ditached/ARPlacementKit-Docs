@@ -7,7 +7,7 @@ It is best to check the sample scene for a working example.
 
 Most settings can be found on those two components. In general your hierachy should look something like this:
 
-![Image title](images/Hierachy.png){ width=400px, align=left }
+![Image title](images/Hierachy.png){ width=400px, align=center }
 
 If you are not using the sample scene as a starting point, you will have to add the *AR Placement Guide* and the *Placeable Generator* to the XR Origin GameObject.
 As well as *AR Kit Coaching Overlay* to the *AR Session* GameObject (though this is optional as it is an iOS only feature).
@@ -20,7 +20,7 @@ By replacing the *Prefab* on the *Placeable Generator* in the inspector you can 
 Just drag in your model and everything should work out of the box. The transform inside the prefab will be preserved.
 Use the scale setting to change the initial scale of the object. It can still be resized during run-time using gestures.
 
-![Image title](images/CustomPrefab.png){ width=400px, align=left }
+![Image title](images/CustomPrefab.png){ width=400px, align=center }
 
 This prefab should ideally only have a single *MeshRenderer* and a *MeshFilter* attached to it.
 
@@ -66,7 +66,7 @@ Options are center and bottom, default is center.
 
 ## AR Placement Guide
 
-![Image title](images/ARPlacementGuideAdvanced.png){ width=400px, align=left }
+![Image title](images/ARPlacementGuideAdvanced.png){ width=400px, align=right, padding=30px }
 
 ### Enable Scaling
 

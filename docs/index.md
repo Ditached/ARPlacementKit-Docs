@@ -2,7 +2,7 @@
 
 Object positioning in AR done right.
 
-![Alt text](images/arplacementthumbnail.jpeg)
+![Alt text](images/arplacementthumbnail.jpegima)
 
 ## Features
 

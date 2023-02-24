@@ -2,17 +2,16 @@
 AR Placement Kit
 ################
 
+Object positioning in AR done right.
 
-**AR Placement Kit** provides an *intuitive* and *versatile* interface for positioning 3d objects inside an AR Space.
 
 .. image:: images/arplacementthumbnail.jpeg
     :width: 500
 
 Features:
 ~~~~~~~~
-
     - Put any 3D Model into the AR Space without coding!
-    - Smooth surface switching technology for the best AR positioning
+    - Move the object freely between surfaces 
     - Scaling and rotation with intuitive two-finger gestures
     - Additional high-precision interface for exact adjustments
     - Testing inside editor via AR Foundation 5.0+

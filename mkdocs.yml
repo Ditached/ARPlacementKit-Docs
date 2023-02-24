@@ -12,8 +12,6 @@ plugins:
             docstring_style: sphinx
   - mkdocs-video
 markdown_extensions:
-  - markdown_include.include:
-      base_path: .
   - admonition
   - toc:
       permalink: True

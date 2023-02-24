@@ -17,7 +17,7 @@ Object positioning in AR done right.
 
 >You can either use the video as tutorial or follow the {doc}`installation` section.
 
-![type:video](![type:video](https://www.youtube.com/embed/g8V4sUp5q_Q))
+![type:video](https://www.youtube.com/embed/g8V4sUp5q_Q)
 
 **For a written guide** check out the {doc}`installation` section first!. If you got the package already setup and running, check out the {doc}`configuration` section for a guide on how to work with the package.
 
@@ -33,7 +33,7 @@ Version 5.0+ provides support for in-editor testing which is essential for unint
 ## Showcase
 
 
-![type:video](![type:video](https://www.youtube.com/embed/P2HiouySJG8))
+![type:video](https://www.youtube.com/embed/P2HiouySJG8)
 
 > The coaching overlay at beginning is an AR Kit only feature, meaning it is on iOS exclusivly.
 

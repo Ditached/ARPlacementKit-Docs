@@ -8,7 +8,7 @@
 
 ## Using the template project
 
-![type:video](![type:video](https://www.youtube.com/embed/LXb3EKWsInQ))
+![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
 
 >This is the fastest way if you are starting from scratch. It is also the best way to make sure that everything is set up correctly.
 

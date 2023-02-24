@@ -3,7 +3,7 @@
 Hey, we are Ditached! A **Creative Technology Studio**.
 
 
-![type:video](![type:video](https://www.youtube.com/embed/CwbJ9r8BaMs))
+![type:video](https://www.youtube.com/embed/CwbJ9r8BaMs)
 
 ## What we do
 

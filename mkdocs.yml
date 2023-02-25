@@ -19,7 +19,8 @@ plugins:
           options:
             docstring_style: sphinx
   - mkdocs-video
-  - glightbox
+  - glightbox:
+      zoomable: false
 markdown_extensions:
   - admonition
   - toc:
@@ -33,7 +34,8 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: cyan
+      primary: blue
+      accent: deep purple
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode

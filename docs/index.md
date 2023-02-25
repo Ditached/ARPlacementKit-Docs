@@ -2,7 +2,7 @@
 
 Object positioning in AR done right.
 
-![type:video](https://www.youtube.com/embed/g8V4sUp5q_Q)
+![type:video](https://www.youtube.com/embed/P2HiouySJG8)
 
 
 ## Features
@@ -16,13 +16,14 @@ Object positioning in AR done right.
 
 ## Quick start
 ### Video Guide
-![type:video](https://www.youtube.com/embed/P2HiouySJG8)
+![type:video](https://www.youtube.com/embed/g8V4sUp5q_Q)
+[Click here for the template project on Github](https://github.com/Ditached/Unity-ARFoundation-Template)
 
 ### Written Guide
 See [Quick Start](./quick-start.md).
 
 ## Integrate into an existing project
-See [installation](./installation.md).
+See [Manual Setup](./installation.md).
 
 Includes manual installation of AR Foundation 5.x. 
 Takes a bit longer and its easier to miss a step, so follow the instructions closely.

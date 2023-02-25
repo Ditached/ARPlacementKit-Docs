@@ -1,7 +1,7 @@
 site_name: AR Placement Kit
-theme:
-  name: readthedocs
-  highlightjs: true
+# theme:
+  # name: readthedocs
+  # highlightjs: true
 nav:
   - "index.md"
   - "quick-start.md"
@@ -28,3 +28,23 @@ markdown_extensions:
   - md_in_html
 theme:
   name: material
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: deep purple
+      toggle:
+        icon: material/brightness-3
+        name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css

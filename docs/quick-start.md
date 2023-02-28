@@ -61,7 +61,7 @@ Hold down the right mouse button to navigate the camera. Move with the W, A, S, 
 
     In the example project, the simulated surface recognition is adjusted so that surfaces are recognized faster. See `Project Settings -> XR Plug-In Management -> XR Simulation`.
 
-![Placeholder](images/XRSim_RecognitionSettings.png){ align=left, width=400px , class="shaded" }
+![Placeholder](images/XRSim_RecognitionSettings_dark.png){ align=left, width=400px , class="shaded" }
 
 For more information see the [XRSimulation Docs](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/xr-simulation/simulation-environments.html).
 

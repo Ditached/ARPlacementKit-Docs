@@ -21,7 +21,7 @@ As well as the *AR Kit Coaching Overlay* to the *AR Session* GameObject (althoug
 
 ### Use your own model/Prefab
 
-By replacing the *Prefab* on the *Placeable Generator* in the inspector, you can use your own prefab.
+By replacing the *Prefab* on the *Placeable Generator* in the inspector, you can use your own Prefab.
 Just drag in your model and everything should work out of the box. The transformation inside the Prefab will be preserved.
 Use the scale setting to change the initial scale of the object. It can still be resized at runtime using gestures.
 
@@ -31,8 +31,8 @@ Ideally, this Prefab should only have a single *MeshRenderer* and *MeshFilter* a
 
 If your model floats too high or is inside the ground, try adjusting the `Pivot Type` setting to match the pivot point of your model. (See [Pivot Type](#pivot-type) and [the troubleshooting section](../troubleshooting/#object-floats-is-in-the-ground))
 
-A collider is also added automatically. If you are not sure how to create a Prefab, see the section below.
-If you are looking for an example Prefab, check out the example prefab.
+A collider will also be added automatically. If you are not sure how to create a Prefab, see the section below.
+Check out the example Prefab as well.
 
 
 #### Creating a Prefab

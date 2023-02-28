@@ -41,7 +41,18 @@ If you have a model that you want to use, you can create a prefab from it.
 First import your model into Unity. Then select it in the Hierarchy and drag it into the Project window. This will create a prefab from the model.
 This prefab can then be used in the *Placeable Generator*. Just select the XR Origin GameObject and drag the prefab into the *Prefab* field.
 
-[More info on creating prefabs](https://docs.unity3d.com/Manual/CreatingPrefabs.html).
+See also [Unity Manual - Creating Prefabs](https://docs.unity3d.com/Manual/CreatingPrefabs.html).
+
+### Scale
+The initial scale of the object in AR.
+Change this if upon spawning, your object is either too large or to small.
+
+### Pivot Type
+The y-location of the pivot point in your custom model.
+Options are center and bottom, default is center.
+
+This option affects the position relative to the surface below and the transformation origin (e.g. for scaling and rotating)
+
 
 ### Advanced parameters
 
@@ -70,19 +81,10 @@ Increase this value if the placeable lags behind when dragged with a finger gest
 Higher values result in fewer transitions.
 
 
-#### Pivot type
-
-
-The y-location of the pivot point in your custom model.
-
-Options are centre and bottom, default is centre.
-
-
 ## AR Placement Guide
 
 
 ![Image Title](images/ARPlacementGuideAdvanced.png){ width=400px, align=right, padding=30px }
-
 
 ### Enable scaling
 
@@ -114,4 +116,4 @@ Sets the multiplier for translating finger rotation into placeable rotation.
 #### AR Plane Prefab
 
 
-The visual representation for planes recognised by the AR system. Uses the default preset if not set.
+The material used for planes recognised by the AR system. Uses the default prefab if not set.

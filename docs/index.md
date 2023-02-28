@@ -1,8 +1,8 @@
 # AR Placement Kit
 
-Object positioning in AR done right.
 
 ![type:video](https://www.youtube.com/embed/P2HiouySJG8)
+<div align="center"><i>object positioning in AR done right</i></div>
 
 
 ## Features

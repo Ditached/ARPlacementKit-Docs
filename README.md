@@ -2,8 +2,7 @@
 
 The repository for the AR Placement Kit Docs.
 Live version available [here](https://arplacementkit-docs.readthedocs.io/en/latest/).
-
-You can also view the current develop branch [here](https://arplacementkit-docs.readthedocs.io/en/develop/) (you need the url to see this version online).
+You can also view the [current develop branch](https://arplacementkit-docs.readthedocs.io/en/develop/) (you need the url to see this version online).
 
 Hosted with [ReadTheDocs](https://readthedocs.org/).
 

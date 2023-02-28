@@ -84,7 +84,8 @@ Higher values result in fewer transitions.
 ## AR Placement Guide
 
 
-![Image Title](images/ARPlacementGuideAdvanced.png){ width=400px, align=right, padding=30px }
+![Image Title](images/ARPlacementGuideAdvanced_light.png#only-light){ width=400px, align=right, padding=30px }
+![Image Title](images/ARPlacementGuideAdvanced_dark.png#only-dark){ width=400px, align=right, padding=30px, class="shaded" }
 
 ### Enable scaling
 

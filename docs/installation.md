@@ -20,7 +20,8 @@ In order for the package to work, there a few important requirements:
 
 When first installing the package from the package manager it might warn you that the new input system is used. Press *YES* to restart the editor.
 
-![Image title](images/NewInputSystemPrompt.png){ align=left, width=300px }
+![Image title](images/NewInputSystemPrompt_light.png#only-light){ align=left, width=300px }
+![Image title](images/NewInputSystemPrompt_dark.png#only-dark){ align=left, width=200px, class="shaded"}
 
 After the editor has restarted, you can start using the package. If at this point there are any error related to the package, make sure to check it out the troubleshooting section. Again, a new project is the best way to make sure no conflicts with other packages are the problem.
 
@@ -30,7 +31,8 @@ After the editor has restarted, you can start using the package. If at this poin
 If you have started with a new project, you need to set up AR Foundation. AR Foundation will automatically be installed by the Placement Kit as it is an dependecy.
 But it is best to double check in the package manager that it is installed.
 
-![Image title](images/ARFoundationPackage.png){ align=left, width=400px, class="shaded" }
+![Image title](images/ARFoundationPackage_light.png#only-light){ align=left, width=400px, class="shaded" }
+![Image title](images/ARFoundationPackage_dark.png#only-dark){ align=left, width=400px, class="shaded" }
 
 Follow the *Install AR Foundation* and *Scene setup* instructions provided in the [ARFoundation Docs](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/project-setup/project-setup.html).
 For package installation in Unity 2021, see [AR Foundation (Unity 2021)].
@@ -95,7 +97,8 @@ If you have any trouble setting up ARCore, meaning you can't build or get a blac
 
 It's recommended to validate the configuration. This can prevent running into errors later on.
 
-![Image title](images/Validation.png){ align=left, width=550px }
+![Image title](images/Validation_light.png#only-light){ align=left, width=550px }
+![Image title](images/Validation_dark.png#only-dark){ align=left, width=550px, class="shaded" }
 
 You can check Android and iOS. Make sure everything is green before you proceed.
 
@@ -104,7 +107,8 @@ You can check Android and iOS. Make sure everything is green before you proceed.
 For the placement guide to function, appropriate Tags and Layers must be set in the Project Settings. The easiest way is to import the preset from the package.
 To do this, navigate to **Project Settings -> Tags and Layers**, then click on the preset icon in the top left of the window and choose "Tags&Layers PlacementKit".
 
-![Image title](images/Tags&LayersPreset.png){ align=left, width=400px }
+![Image title](images/Tags&LayersPreset_light.png#only-light){ align=left, width=400px }
+![Image title](images/Tags&LayersPreset_dark.png#only-dark){ align=left, width=200px, class="shaded" }
 
 !!! note
 
@@ -112,17 +116,18 @@ To do this, navigate to **Project Settings -> Tags and Layers**, then click on t
 
 Alternatively, you can manually add the layers to your Project. The order and index does not matter.
 
-![Image title](images/Tags&Layers.png){ align=left, width=400px }
-
-### Tags
+### Required Tags
 
 - Placeable
 - ReceiveShadows
 
-### Layers
+### Required Layers
 
 - RepositioningPlane
 - Placeable
 - SurfaceCollider
 - PlaceableContactCollider
 - CameraCollider
+
+![Image title](images/Tags&Layers_light.png#only-light){ align=left, width=400px }
+![Image title](images/Tags&Layers_dark.png#only-dark){ align=left, width=400px, class="shaded" }

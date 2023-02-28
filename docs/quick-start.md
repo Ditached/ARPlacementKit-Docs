@@ -79,7 +79,7 @@ Next, open the AR Placement Kit Sample Scene from `Assets -> AR Placement Kit ->
 After opening it you should see the following hierachy:
 
 ![Image title](images/Hierarchy_light.png#only-light){ align=left, width=400px }
-![Image title](images/Hierarchy_dark.png#only-dark){ align=left, width=200px }
+![Image title](images/Hierarchy_dark.png#only-dark){ align=left, width=200px , class="shaded" }
 
 !!! note
 
@@ -92,5 +92,6 @@ If you run into any problems at this point, check out the [troubleshooting](./tr
 
 After looking around and placing the object, it should look something like this:
 
-![Image title](images/XRSim_WorkingExample.png){ align=left, width=200px }
+![Image title](images/XRSim_WorkingExample_light.png#only-light){ align=left, width=200px }
+![Image title](images/XRSim_WorkingExample_dark.png#only-dark){ align=left, width=200px , class="shaded" }
 

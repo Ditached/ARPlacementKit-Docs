@@ -3,11 +3,13 @@
 The two most important components of this package are the AR Placement Guide\* and the *Placeable Generator*. Both need to be on the same GameObject as the XR Origin.
 It is best to check the sample scene for a working example.
 
-![Image title](images/Inspector.png){ width=400px }
+![Image title](images/XROrigin_Inspector_dark.png#only-dark){ width=400px , class="shaded"}
+![Image title](images/XROrigin_Inspector_light.png#only-light){ width=400px }
 
 These two components contain most of the settings. In general your hierachy should look something like this:
 
-![Image title](images/Hierachy.png){ width=400px, align=center }
+![Image title](images/Hierarchy_light.png#only-light){ width=400px, align=center }
+![Image title](images/Hierarchy_dark.png#only-dark){ width=200px, align=center, class="shaded" }
 
 If you are not using the sample scene as a starting point, you will have to add the *AR Placement Guide* and the *Placeable Generator* to the XR Origin GameObject.
 As well as *AR Kit Coaching Overlay* to the *AR Session* GameObject (though this is optional as it is an iOS only feature).
@@ -20,7 +22,7 @@ By replacing the *Prefab* on the *Placeable Generator* in the inspector you can 
 Just drag in your model and everything should work out of the box. The transform inside the prefab will be preserved.
 Use the scale setting to change the initial scale of the object. It can still be resized during run-time using gestures.
 
-![Image title](images/CustomPrefab.png){ width=400px, align=center }
+![Image title](images/CustomPrefab.png){ width=400px, align=center , class="shaded"}
 
 This prefab should ideally only have a single *MeshRenderer* and a *MeshFilter* attached to it.
 

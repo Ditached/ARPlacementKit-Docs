@@ -66,7 +66,7 @@ Set Project Settings -> Player -> iOS -> Managed Stripping Level to "Minimal". S
 ### If the object can be spawned but floats too high above the ground or is positioned below it
 
 try adjusting the Pivot Position in Placeable Generator -> Advanced Settings.
-See [Customization](./customization.md)
+See [Configuration](./configuration.md)
 
 ### I don't see a coaching overlay
 The coaching overlay at beginning is an AR Kit only feature, meaning it is on iOS exclusivly.

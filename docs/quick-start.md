@@ -40,9 +40,9 @@ Select the XR Environment preset in the XR Environment window (e.g. `Kitchen -> 
 If you don't see a window titled `XR Environment`, go to `Window -> XR -> AR Foundation -> XR Environment` to open it.
 
 ### Setting the Resolution in Game View
-To simulate a realistic aspect ratio and resolution, set the resolution from the Game View drop-down menu.
+To simulate a realistic aspect ratio and resolution, set the resolution from the Game View drop-down menu. 
 
-![Placeholder](images/XRSim_Resolution.png){ align=left, width=400px , class="shaded" }
+![Placeholder](images/GameView_Resolution_dark.png){ align=left, width=400px , class="shaded" }
 
 
 ### Navigation & Controls
@@ -88,7 +88,7 @@ After opening it, you should see the following hierarchy:
 
 !!! note
 
-    If the XR Environment (e.g. the kitchen scene) is not visible in the XR Environment window, restart the Unity Editor again.
+    If the XR Environment (e.g. the kitchen scene) is not visible in the XR Environment and/or Game window, restart the Unity Editor again.
 
 
 ## 6. Test the setup

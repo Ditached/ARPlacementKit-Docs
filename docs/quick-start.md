@@ -26,18 +26,18 @@ After downloading, open the project with Unity (usually via Unity Hub).
     As this is a public repo, the **AR Placement Kit is not included in the project**. You will need to download it using the Unity package manager.
 
 ## 2. Load the sample scene
-Load the sample scene from `Assets -> Scenes -> SampleScene.unity`
+Load the sample scene from `Assets → Scenes → SampleScene.unity`
 
 ## 3. Import TMP Essentials
 A popup window will open asking you to import Text Mesh Pro into the project. Click `Import TMP Essentials`.
 
 
 ## 4. XR Environment
-Select the XR Environment preset in the XR Environment window (e.g. `Kitchen -> Kitchen_17ftx16ft`). 
+Select the XR Environment preset in the XR Environment window (e.g. `Kitchen → Kitchen_17ftx16ft`). 
 
 ![Image title](images/XRSim_LoadEnv.png){ align=left, width=300px , class="shaded" }
 
-If you don't see a window titled `XR Environment`, go to `Window -> XR -> AR Foundation -> XR Environment` to open it.
+If you don't see a window titled `XR Environment`, go to `Window → XR → AR Foundation → XR Environment` to open it.
 
 ### Setting the Resolution in Game View
 To simulate a realistic aspect ratio and resolution, set the resolution from the Game View drop-down menu. 
@@ -59,7 +59,7 @@ Hold down the right mouse button to navigate the camera. Move with the W, A, S, 
 !!! note 
 
 
-    In the example project, the simulated surface recognition is adjusted so that surfaces are recognized faster. See `Project Settings -> XR Plug-In Management -> XR Simulation`.
+    In the example project, the simulated surface recognition is adjusted so that surfaces are recognized faster. See `Project Settings → XR Plug-In Management → XR Simulation`.
 
 ![Placeholder](images/XRSim_RecognitionSettings_dark.png){ align=left, width=400px , class="shaded" }
 
@@ -79,7 +79,7 @@ Select and install ARPlacementKit from the Unity Asset store.
 A popup will appear, warning you about Package Manager dependecies. Click `Install/Upgrade`.
 In the import dialog select everything and click `Import`.
 
-Next, open the AR Placement Kit Sample Scene from `Assets -> AR Placement Kit -> Samples -> ARPlacingSample -> ARPlacementKitSample.untiy`.
+Next, open the AR Placement Kit Sample Scene from `Assets → AR Placement Kit → Samples → ARPlacingSample → ARPlacementKitSample.untiy`.
 
 After opening it, you should see the following hierarchy:
 

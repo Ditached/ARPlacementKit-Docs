@@ -21,6 +21,8 @@ plugins:
   - mkdocs-video
   - glightbox:
       zoomable: false
+  - enumerate-headings:
+        toc_depth: 2
 markdown_extensions:
   - admonition
   - toc:

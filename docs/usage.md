@@ -1,28 +1,22 @@
 # Usage
-
 ## Scanning the environment
-
-When prompted by the coaching overlay, move the device slowly, looking at surfaces from different angles.
-After a few seconds, recognized surfaces should get marked with a grid of blue circles.
+When prompted by the coaching overlay (iOS only), move the device slowly, looking at surfaces from different angles.
+After a few seconds, detected surfaces should be marked with a grid of blue circles.
 
 ## Initial placement
+To spawn the object, tap on a detected surface (marked with blue circles).
 
-To spawn the object, tap onto a recognized surface (marked with blue circles).
-
-## Tranforming the object
-
+## Transforming the object
 ### Movement
-
-To move the object, tap and then drag it. While holding down the finger on the object, you can either use a finger to move the object or move the entire mobile device.
+To move the object, tap and drag. If you keep your finger on the object, you can either move the object with one finger or move the entire mobile device.
 
 ### Rotation
-
 Rotate the object by touching the screen with two fingers and rotating them around each other.
 
-### Scaling
-
-Scale the object by touching the screen with two fingers and moving them further apart for enlarging the object or closer to each other for shrinking it (pinching gesture).
+### Scale
+Scale the object by touching the screen with two fingers and moving them apart to make the object bigger or closer together to make it smaller (pinch gesture).
 
 ### Fine Tuning
+To open the fine-tuning interface, tap the angle/scale display. To hide it, tap anywhere else on the screen.
 
-To open the fine tuning interface, click on the angle / scale display. To hide it tap anywhere else on the screen.
+
